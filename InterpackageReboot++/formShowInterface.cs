@@ -82,13 +82,6 @@ namespace InterpackageReboot__
             radioDateTimePicker.Checked = true;
             radioNow.Checked = false;
         }
-
-        private void radioNow_CheckedChanged(object sender, EventArgs e)
-        {
-            radioRemind.Checked = false;
-            radioDateTimePicker.Checked = false;
-            radioNow.Checked = true;
-        }
     }
 
     public class MyCustomApplicationContext : ApplicationContext

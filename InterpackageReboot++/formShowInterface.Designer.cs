@@ -206,7 +206,6 @@
             this.radioNow.TabStop = true;
             this.radioNow.Text = "Reboot Now";
             this.radioNow.UseVisualStyleBackColor = true;
-            this.radioNow.CheckedChanged += new System.EventHandler(this.radioNow_CheckedChanged);
             // 
             // btnOK
             // 
